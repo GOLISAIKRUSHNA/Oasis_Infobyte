@@ -35,3 +35,13 @@ receive_thread.start()
 while True:
     message = input()
     client.send(message.encode('utf-8'))
+
+
+
+# I am already started two client 
+# mean's two time i am running the same file 
+    
+    #see server is activated ...  both client are activated now ,we can chat now
+    #now see again
+
+    # this is all about project where one server and two client

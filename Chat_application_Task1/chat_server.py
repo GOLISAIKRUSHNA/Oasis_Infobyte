@@ -1,4 +1,4 @@
-import socket
+import socket   #module's
 import threading
 
 # Function to handle client connections
@@ -70,3 +70,17 @@ while True:
     # Start a new thread to handle the client
     client_thread = threading.Thread(target=handle_client, args=(client_socket, username))
     client_thread.start()
+
+
+
+
+        #IN this, I need three terminal's
+        #1 server
+        #2 client1   now this terminal
+        #3 client2   
+    
+
+
+
+    # Server listening on 127.0.0.1:12345 is started  let see... 
+    # how two client interact like whatsapp

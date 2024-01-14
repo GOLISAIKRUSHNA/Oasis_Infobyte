@@ -1,6 +1,6 @@
-import speech_recognition as sr  #module's are speech recognition,pyttsx3,dateandtime and webbrowser
+import speech_recognition as sr  #module's are speech recognition,pyttsx3,dateandtime and web browser
 import pyttsx3  #module         SIMPLE ASSISTANCE IN PYTHON
-from datetime import datetime
+from datetime import datetime  #very importance for voice assistance module's
 import webbrowser
 
 def speak(text):
@@ -46,7 +46,7 @@ def main():
             webbrowser.open(url)
             speak(f"Searching the web for {search_term}")
         elif "exit" in query or "bye" in query:
-            speak("Goodbye! Have a great day.")
+            speak("Goodbye! Have a great day Saikrushna Coder..")
             break
         else:
             speak("I'm sorry, I didn't understand that command. Can you please repeat?")

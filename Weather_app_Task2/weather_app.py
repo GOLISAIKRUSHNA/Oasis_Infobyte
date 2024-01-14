@@ -1,4 +1,5 @@
-import requests
+import requests  # only one module we need to install in pc and done
+                # One more api is need first we need to sign and search for weather information
 
 def get_weather(api_key, location):
     base_url = "http://api.openweathermap.org/data/2.5/weather"
@@ -34,3 +35,12 @@ if __name__ == "__main__":
     location = input("Enter the city or ZIP code: ")
 
     get_weather(api_key, location)
+
+
+
+#let's start...
+#It is present information in worli,now again
+    
+    #both same 
+    #this is all about task2..
+    #Thankyou..
